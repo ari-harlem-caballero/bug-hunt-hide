@@ -6,7 +6,7 @@ const shedContainer = document.getElementById('shed-container');
 const treeContainer = document.getElementById('tree-container');
 const boulderContainer = document.getElementById('boulder-container');
 
-const totalEl = document.getElementById('total');
+const totalEl = document.getElementById('total-games');
 const winsEl = document.getElementById('wins');
 
 // initialize state
