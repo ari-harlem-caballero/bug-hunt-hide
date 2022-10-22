@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-const shedClick = document.getElementById('shed-button');
+const shedButton = document.getElementById('shed-button');
 const boulderButton = document.getElementById('boulder');
 
 const shedContainer = document.getElementById('Shed-Container');
@@ -42,7 +42,7 @@ function handleGuess(userGuess, correctSpot) {
 
 }
 
-function setStyles() {
+function resetStyles() {
     shedContainer.classList.add('face');
     treeContainer.classList.add('face');
     boulderContainer.classList.add('face');
