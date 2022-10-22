@@ -21,7 +21,7 @@ let correctGuesses = 0;
 let totalGuesses = 0;
 
 function getRandomItem(arr) {
-    const index = Math.random();
+    const index = Math.floor(Math.random() * arr.length);
 
     return arr[index];
 }
@@ -44,9 +44,9 @@ function handleGuess(userGuess, correctSpot) {
 }
 
 function resetStyles() {
-    shedContainer.classList.add('face');
-    treeContainer.classList.add('face');
-    boulderContainer.classList.add('face');
+    shedContainer.classList.remove('face');
+    treeContainer.classList.remove('face');
+    boulderContainer.classList.remove('face');
 }
 
 shedButton.addEventListener('click', () => {
