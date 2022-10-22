@@ -7,7 +7,7 @@ const treeContainer = document.getElementById('tree-container');
 const boulderContainer = document.getElementById('boulder-container');
 
 const totalEl = document.getElementById('total-games');
-const winsEl = document.getElementById('wins');
+const winsEl = document.getElementById('total-wins');
 
 // initialize state
 const hidingPlaces = [
