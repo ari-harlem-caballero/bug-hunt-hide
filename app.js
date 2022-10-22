@@ -52,17 +52,17 @@ function resetStyles() {
 shedButton.addEventListener('click', () => {
     const correctSpot = getRandomItem(hidingPlaces);
 
-    handleGuess(correctSpot, 'shed');  
+    handleGuess('shed', correctSpot);  
 });
 
 treeButton.addEventListener('click', () => {
     const correctSpot = getRandomItem(hidingPlaces);
 
-    handleGuess(correctSpot, 'tree');  
+    handleGuess('tree', correctSpot);  
 });
 
 boulderButton.addEventListener('click', () => {
     const correctSpot = getRandomItem(hidingPlaces);
 
-    handleGuess(correctSpot, 'boulder');  
+    handleGuess('boulder', correctSpot);  
 });
