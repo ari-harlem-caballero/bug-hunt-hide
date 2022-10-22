@@ -38,8 +38,8 @@ function handleGuess(userGuess, correctSpot) {
         correctGuesses++;
     }
 
-    totalGuesses = totalEl.textContent();
-    correctGuesses = winsEl.textContent();
+    totalEl.textContent = totalGuesses;
+    winsEl.textContent = correctGuesses;
 
 }
 
