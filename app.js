@@ -35,11 +35,11 @@ function handleGuess(userGuess, correctSpot) {
     correctHidingPlaceEl.classList.add('face');
 
     if (userGuess === correctSpot) {
-        correctGuesses--;
+        correctGuesses++;
     }
 
-    totalGuesses = totalEl.textContent;
-    correctGuesses = winsEl.textContent;
+    totalGuesses = totalEl.textContent();
+    correctGuesses = winsEl.textContent();
 
 }
 
