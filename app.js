@@ -55,7 +55,7 @@ shedButton.addEventListener('click', () => {
     handleGuess(correctSpot, 'shed');  
 });
 
-treeButton.addEventListener('submit', () => {
+treeButton.addEventListener('click', () => {
     const correctSpot = getRandomItem(hidingPlaces);
 
     handleGuess(correctSpot, 'tree');  
